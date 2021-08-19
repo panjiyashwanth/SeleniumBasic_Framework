@@ -1,17 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
   </reporter-output>
-  <suite started-at="2021-08-16T14:23:37Z" name="Default suite" finished-at="2021-08-16T14:23:51Z" duration-ms="14435">
+  <suite started-at="2021-08-18T15:22:26Z" name="Suite" finished-at="2021-08-18T15:23:15Z" duration-ms="48993">
     <groups>
     </groups>
-    <test started-at="2021-08-16T14:23:37Z" name="Default test" finished-at="2021-08-16T14:23:51Z" duration-ms="14435">
-      <class name="com.day21.Demo1">
-        <test-method signature="testBrowser()[pri:0, instance:com.day21.Demo1@68f1b17f]" started-at="2021-08-16T14:23:37Z" name="testBrowser" finished-at="2021-08-16T14:23:51Z" duration-ms="14407" status="PASS">
+    <test started-at="2021-08-18T15:22:26Z" name="Test" finished-at="2021-08-18T15:23:15Z" duration-ms="48993">
+      <class name="com.scripts.InvalidLogin">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.scripts.InvalidLogin@59e32960]" started-at="2021-08-18T15:23:04Z" name="openApp" finished-at="2021-08-18T15:23:12Z" duration-ms="8512" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testBrowser -->
-      </class> <!-- com.day21.Demo1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- openApp -->
+        <test-method signature="testInvalidLogin()[pri:2, instance:com.scripts.InvalidLogin@59e32960]" started-at="2021-08-18T15:23:12Z" name="testInvalidLogin" finished-at="2021-08-18T15:23:14Z" duration-ms="1638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.scripts.InvalidLogin@59e32960]" started-at="2021-08-18T15:23:14Z" name="closeApp" finished-at="2021-08-18T15:23:15Z" duration-ms="1200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.scripts.InvalidLogin -->
+      <class name="com.scripts.ValidLogin">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.scripts.ValidLogin@609db546]" started-at="2021-08-18T15:22:49Z" name="openApp" finished-at="2021-08-18T15:22:58Z" duration-ms="8858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testValidLogin()[pri:1, instance:com.scripts.ValidLogin@609db546]" started-at="2021-08-18T15:22:58Z" name="testValidLogin" finished-at="2021-08-18T15:23:02Z" duration-ms="4927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.scripts.ValidLogin@609db546]" started-at="2021-08-18T15:23:02Z" name="closeApp" finished-at="2021-08-18T15:23:04Z" duration-ms="1138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.scripts.ValidLogin -->
+      <class name="com.scripts.Test1">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.scripts.Test1@7c214cc0]" started-at="2021-08-18T15:22:26Z" name="openApp" finished-at="2021-08-18T15:22:37Z" duration-ms="10544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="test()[pri:0, instance:com.scripts.Test1@7c214cc0]" started-at="2021-08-18T15:22:37Z" name="test" finished-at="2021-08-18T15:22:37Z" duration-ms="6" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.scripts.Test1@7c214cc0]" started-at="2021-08-18T15:22:37Z" name="closeApp" finished-at="2021-08-18T15:22:38Z" duration-ms="1223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.scripts.Test1 -->
+      <class name="com.scripts.Test2">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.scripts.Test2@5b67bb7e]" started-at="2021-08-18T15:22:38Z" name="openApp" finished-at="2021-08-18T15:22:47Z" duration-ms="9741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="test()[pri:0, instance:com.scripts.Test2@5b67bb7e]" started-at="2021-08-18T15:22:47Z" name="test" finished-at="2021-08-18T15:22:48Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.scripts.Test2@5b67bb7e]" started-at="2021-08-18T15:22:48Z" name="closeApp" finished-at="2021-08-18T15:22:49Z" duration-ms="1142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.scripts.Test2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
